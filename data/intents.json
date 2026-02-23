@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hi! How can I help you today?", "Hello! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later"],
+      "responses": ["Goodbye!", "See you later!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what are your hours", "when are you open", "opening hours"],
+      "responses": ["We are open Monday to Friday, 9am to 5pm."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "how do I return this", "refund policy"],
+      "responses": ["Refunds are available within 30 days with a receipt."]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["where is my order", "how long is shipping", "delivery time"],
+      "responses": ["Shipping typically takes 3–5 business days."]
+    }
+  ]
+}
